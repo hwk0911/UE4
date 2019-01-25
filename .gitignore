@@ -1,20 +1,24 @@
-#####################
-#Unreal Generated Files#
-####################
-#*/Build
-*/Binaries
-*/DerivedDataCache
-*/Intermediate
-*/Saved
+###############
+#Arena Battle Files#
+###############
+#*/ArenaBattle/Build
+*/ArenaBattle/Binaries
+*/ArenaBattle/DerivedDataCache
+*/ArenaBattle/Intermediate
+*/ArenaBattle/Saved
 
 ############
 #Asset Files#
 ###########
-*/Content/AssetFolderName1
-*/Content/AssetFolderName2
-*/Content/AssetFolderName3
+*/ArenaBattle/Content/AssetFolderName1
+*/ArenaBattle/Content/AssetFolderName2
+*/ArenaBattle/Content/AssetFolderName3
 
 ##################
 #VS Generated Files#
 #################
-*/.vs
+*/ArenaBattle/.vs
+
+##############
+#ArenaBattle END#
+##############
