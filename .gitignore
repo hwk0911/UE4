@@ -1,23 +1,23 @@
 ###############
 #Arena Battle Files#
 ###############
-#*/ArenaBattle/Build
-*/ArenaBattle/Binaries
-*/ArenaBattle/DerivedDataCache
-*/ArenaBattle/Intermediate
-*/ArenaBattle/Saved
+#ArenaBattle/Build
+ArenaBattle/Binaries
+ArenaBattle/DerivedDataCache
+ArenaBattle/Intermediate
+ArenaBattle/Saved
 
 ############
 #Asset Files#
 ###########
-*/ArenaBattle/Content/AssetFolderName1
-*/ArenaBattle/Content/AssetFolderName2
-*/ArenaBattle/Content/AssetFolderName3
+ArenaBattle/Content/AssetFolderName1
+ArenaBattle/Content/AssetFolderName2
+ArenaBattle/Content/AssetFolderName3
 
 ##################
 #VS Generated Files#
 #################
-*/ArenaBattle/.vs
+ArenaBattle/.vs
 
 ##############
 #ArenaBattle END#
