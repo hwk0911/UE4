@@ -25,12 +25,14 @@ void AABPawn::Tick(float DeltaTime)
 
 }
 
-void AABPawn::PostInitializeComponents() {
+void AABPawn::PostInitializeComponents()
+{
 	Super::PostInitializeComponents();
 	ABLOG_S(Warning);
 }
 
-void AABPawn::PossessedBy(AController *NewController) {
+void AABPawn::PossessedBy(AController* NewController)
+{
 	ABLOG_S(Warning);
 	Super::PossessedBy(NewController);
 }
@@ -41,6 +43,4 @@ void AABPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-
-
 
