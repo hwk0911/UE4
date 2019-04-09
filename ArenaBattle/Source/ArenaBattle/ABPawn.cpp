@@ -32,3 +32,13 @@ void AABPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
+void AABPawn::PostInitializeComponents() {
+	Super::PostInitializeComponents();
+	ABLOG_S(Warning);
+}
+
+void AABPawn::PossessedBy(AController * NewController) {
+	ABLOG_S(Warning);
+	Super::PossessedBy(NewController);
+}
+

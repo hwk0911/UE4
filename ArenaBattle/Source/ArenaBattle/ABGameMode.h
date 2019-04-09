@@ -16,5 +16,6 @@ class ARENABATTLE_API AABGameMode : public AGameModeBase
 
 	AABGameMode();
 	
-	
+public:
+	virtual void PostLogin(APlayerController* NewPlayer) override;
 };

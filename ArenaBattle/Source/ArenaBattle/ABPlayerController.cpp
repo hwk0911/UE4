@@ -2,6 +2,14 @@
 
 #include "ABPlayerController.h"
 
+void AABPlayerController::PostInitializeComponents() {
+	Super::PostInitializeComponents();
+	ABLOG_S(Warning);
+}
 
+void AABPlayerController::Possess(APawn * aPawn) {
+	ABLOG_S(Warning);
+	Super::Possess(aPawn);
+}
 
 
