@@ -22,3 +22,28 @@ ArenaBattle/.vs
 ##############
 #ArenaBattle END#
 ##############
+
+
+
+###############
+#DONT STARVE 3D#
+###############
+#DontStarve3D/Build
+DontStarve3D/Binaries
+DontStarve3D/DerivedDataCache
+DontStarve3D/Intermediate
+DontStarve3D/Saved
+
+############
+#Asset Files#
+###########
+DontStarve3D/Content/InfinityBladeGrassLands
+
+##################
+#VS Generated Files#
+#################
+DontStarve3D/.vs
+
+##############
+#DontStarve3D END#
+##############
