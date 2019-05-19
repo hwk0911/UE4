@@ -11,10 +11,8 @@ UCLASS()
 class ARENABATTLE_API AFountain : public AActor
 {
 	GENERATED_BODY()
-
-	UPROPERTY(VisibleAnywhere)
-	URotatingMovementComponent* Movement;
-public:
+	
+public:	
 	// Sets default values for this actor's properties
 	AFountain();
 
@@ -24,26 +22,29 @@ protected:
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 	virtual void PostInitializeComponents() override;
 
-public:
+public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(VisibleAnywhere)
-		UStaticMeshComponent *Body;
+	UStaticMeshComponent *Body;
 
 	UPROPERTY(VisibleAnywhere)
-		UStaticMeshComponent *Water;
+	UStaticMeshComponent *Water;
 
 	UPROPERTY(VisibleAnywhere)
-		UPointLightComponent *Light;
+	UPointLightComponent *Light;
 
 	UPROPERTY(VisibleAnywhere)
-		UParticleSystemComponent *Splash;
+	UParticleSystemComponent *Splash;
 
-	UPROPERTY(EditAnywhere, Category = ID)
-		int32 ID;
+	UPROPERTY(VisibleAnywhere)
+	URotatingMovementComponent* Movement;
+
+	UPROPERTY(EditAnywhere, Category=ID)
+	int32 ID;
 
 private:
-	UPROPERTY(EditAnywhere, Category = stat, Meta = (AllowPrivateAccess = true))
-		float RotateSpeed;
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+	float RotateSpeed;
 };

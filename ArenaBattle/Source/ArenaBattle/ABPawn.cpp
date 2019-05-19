@@ -25,20 +25,19 @@ void AABPawn::Tick(float DeltaTime)
 
 }
 
-// Called to bind functionality to input
-void AABPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
-
 void AABPawn::PostInitializeComponents() {
 	Super::PostInitializeComponents();
 	ABLOG_S(Warning);
 }
 
-void AABPawn::PossessedBy(AController * NewController) {
+void AABPawn::PossessedBy(AController* NewController) {
 	ABLOG_S(Warning);
 	Super::PossessedBy(NewController);
+}
+// Called to bind functionality to input
+void AABPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
 }
 
