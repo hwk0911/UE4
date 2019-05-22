@@ -6,7 +6,7 @@
 
 
 AABGameMode::AABGameMode() {
-	DefaultPawnClass = AABPawn::StaticClass();
+	DefaultPawnClass = AABCharacter::StaticClass();
 	PlayerControllerClass = AABPlayerController::StaticClass();
 }
 
