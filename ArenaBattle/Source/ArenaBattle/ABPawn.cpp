@@ -35,8 +35,10 @@ AABPawn::AABPawn()
 
 	Mesh->SetAnimationMode(EAnimationMode::AnimationBlueprint);
 
-	static ConstructorHelpers::FClassFinder<UAnimInstance> WARRIOR_ANIM(TEXT("/Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint"));
-	if (WARRIOR_ANIM.Succeeded()) {
+	static ConstructorHelpers::FClassFinder<UAnimInstance> WARRIOR_ANIM(TEXT("/Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C"));
+
+	if (WARRIOR_ANIM.Succeeded())
+	{
 		Mesh->SetAnimInstanceClass(WARRIOR_ANIM.Class);
 	}
 }
@@ -44,7 +46,8 @@ AABPawn::AABPawn()
 // Called when the game starts or when spawned
 void AABPawn::BeginPlay()
 {
-	Super::BeginPlay();	
+	Super::BeginPlay();
+	
 }
 
 // Called every frame
@@ -84,7 +87,3 @@ void AABPawn::LeftRight(float NewAxisValue)
 {
 	AddMovementInput(GetActorRightVector(), NewAxisValue);
 }
-
-//AnimSequence'/Game/Animations/WarriorRun.WarriorRun'
-
-//AnimBlueprint'/Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint'
