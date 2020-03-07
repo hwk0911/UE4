@@ -23,7 +23,10 @@ Intro : This area for UE4
 */.vs
 
 
-ref ) https://youngjoongkwon.com/2018/05/25/±êÇãºê¸¦-ÅëÇÑ-¾ğ¸®¾ó¿£Áø-ÇÁ·ÎÁ§Æ®-°øÀ¯-¹æ¹ı/
+ref ) https://youngjoongkwon.com/2018/05/25/ê¹ƒí—ˆë¸Œë¥¼-í†µí•œ-ì–¸ë¦¬ì–¼ì—”ì§„-í”„ë¡œì íŠ¸-ê³µìœ -ë°©ë²•/
 
 End.
 
+
+
+stop
